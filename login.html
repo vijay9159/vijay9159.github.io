@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signupresult.html" method="GET">
+        <div>
+            <label for="user_name">User Name</label>
+            <input type="text" name="user_name" id="user_name" placeholder="username" maxlength="10" required>
+        </div>
+        <br>
+        <div>
+            <label for="number">Year of Birth</label>
+            <input type="date" name="number" id="number" minlength="4" min="1990">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender   </label>
+            <label for="">Male </label><input type="radio" name="gender">
+            <label for="">Female </label><input type="radio" name="gender">
+        </div>
+        <br>
+        <div>
+            <label for="cept">Department</label>
+            <select name="dept" id="dept">
+                <option value="cse">cse</option>
+                <option value="csd">csd</option>
+                <option value="ece">ece</option>
+                <option value="it">it</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="abcd@example.com">
+        </div>
+        <br>
+        <div>
+            <label for="password">Password</label> 
+            <input type="password" name="Password" id="password" placeholder="password" minlength="5" maxlength="12" required> 
+        </div>
+        <br>
+        <button type="submit" >Sign Up</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
